@@ -12,8 +12,8 @@ export default defineConfig(({ command, mode }) => {
     },
     plugins: [vue()],
     server: {
-      port: 3000, // 打开的端口号
-      open: true, // 运行时打开浏览器
+      port: 3000,
+      open: true,
     },
   }
 });
